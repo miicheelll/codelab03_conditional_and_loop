@@ -15,6 +15,7 @@ Praktikum 1
   
   ![alt text](img/Code_Prak1_Lngkh3.jpg?raw=true)
   ![alt text](img/Prak1_Lngkh3.jpg?raw=true)
+  
   Kode tidak bisa jalan karena:
   - Penulisan keyword dengan kapital.
   - Pengulangan deklarasi test.
@@ -24,6 +25,7 @@ Praktikum 1
   
   ![alt text](img/Code_Prak1_Perbaikan.jpg?raw=true)
   ![alt text](img/Prak1_Perbaikan.jpg?raw=true)
+  
   Perbaikan yang dilakukan:
   - Mengganti penulisan If, Else If, Else menjadi if, else if, else.
   - Memisahkan variabel agar tidak redeclare (test = test2)
@@ -38,6 +40,7 @@ Praktikum 2
   
   ![alt text](img/Code_Prak2_Lngkh2.jpg?raw=true)
   ![alt text](img/Prak2_Lngkh2.jpg?raw=true)
+  
   Kode tidak bisa jalan karena:
   - Variabel counter belum pernah dideklarasikan atau diberi nilai awal (misalnya int counter = 0;).
   - Tanpa inisialisasi, program akan error saat kompilasi: “Undefined name 'counter'”.
@@ -46,6 +49,7 @@ Praktikum 2
   
   ![alt text](img/Code_Prak2_Lngkh3.jpg?raw=true)
   ![alt text](img/Prak2_Lngkh3.jpg?raw=true)
+  
   Kode tidak bisa jalan karena:
   - Variabel counter belum pernah dideklarasikan (misalnya int counter = 0;).
   
@@ -54,6 +58,7 @@ Praktikum 2
   ![alt text](img/Code_Prak2_Perbaikan.jpg?raw=true)
   ![alt text](img/Prak2_PerbaikanA.jpg?raw=true)
   ![alt text](img/Prak2_PerbaikanB.jpg?raw=true)
+  
   Perbaikan yang dilakukan:
   - Menambahkan deklarasi variabel int counter = 0; agar counter dikenali.
   - Menutup blok main dengan tanda kurung kurawal } yang benar.
@@ -69,6 +74,7 @@ Praktikum 3
   
   ![alt text](img/Code_Prak3_Lngkh2.jpg?raw=true)
   ![alt text](img/Prak3_Lngkh2.jpg?raw=true)
+  
   Kode tidak jalan karena:
   - Variabel Index belum pernah dideklarasikan (int index = ...;).
   - Penulisan Index dan index tidak konsisten (huruf besar/kecil beda, dianggap variabel berbeda).
@@ -78,6 +84,7 @@ Praktikum 3
   
   ![alt text](img/Code_Prak3_Lngkh3.jpg?raw=true)
   ![alt text](img/Prak3_Lngkh3.jpg?raw=true)
+  
   Kode tidak jalan karena:
   - Variabel index/Index belum pernah dideklarasikan (int index = ...; wajib).
   - Penulisan If, Else If dengan huruf besar tidak valid di Dart (harus if, else if).
@@ -88,6 +95,7 @@ Praktikum 3
   
   ![alt text](img/Code_Prak3_Perbaikan.jpg?raw=true)
   ![alt text](img/Prak3_Perbaikan.jpg?raw=true)
+  
   Perbaikan yang dilakukan:
   - Deklarasi variabel → int index = 10; ditambahkan di dalam for.
   - Penulisan Index/index → diseragamkan jadi index (case-sensitive).
@@ -101,5 +109,13 @@ Praktikum 3
 
 Tugas Praktikum
 - Program bil. prima
-  ![alt text](?raw=true)
-  ![alt text](?raw=true)
+  ![alt text](img/Code_TugasPrak.jpg?raw=true)
+  ![alt text](img/TugasPrak_A.jpg?raw=true)
+  ![alt text](img/TugasPrak_B.jpg?raw=true)
+
+  Penjelasan:
+  - for digunakan untuk mengulang dari 0 sampai 201.
+  - Fungsi isPrima() mengecek apakah n bilangan prima.
+  - Jika isPrima(i) bernilai true, program mencetak angka tersebut bersama nama lengkap dan NIM.
+
+
