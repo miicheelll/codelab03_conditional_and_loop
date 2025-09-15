@@ -7,6 +7,7 @@ Praktikum 1
   
   ![alt text](img/Code_Prak1_Lngkh2.jpg?raw=true)
   ![alt text](img/Prak1_Lngkh2.jpg?raw=true)
+
   Kode tidak bisa dijalankan karena ada kesalahan sintaks:
   - Di Dart, keyword harus huruf kecil: if, else if, else.
   
@@ -44,14 +45,15 @@ Praktikum 2
 - Langkah 3 :
   
   ![alt text](img/Code_Prak2_Lngkh3.jpg?raw=true)
-  ![alt text](img/Prak2_Lngkh3.jpg?raw=true
+  ![alt text](img/Prak2_Lngkh3.jpg?raw=true)
   Kode tidak bisa jalan karena:
   - Variabel counter belum pernah dideklarasikan (misalnya int counter = 0;).
   
 - Perbaikan :
   
   ![alt text](img/Code_Prak2_Perbaikan.jpg?raw=true)
-  ![alt text](img/Prak2_Perbaikan.jpg?raw=true)
+  ![alt text](img/Prak2_PerbaikanA.jpg?raw=true)
+  ![alt text](img/Prak2_PerbaikanB.jpg?raw=true)
   Perbaikan yang dilakukan:
   - Menambahkan deklarasi variabel int counter = 0; agar counter dikenali.
   - Menutup blok main dengan tanda kurung kurawal } yang benar.
